@@ -39,6 +39,7 @@ public class HiloTest {
     @Test(timeout = 2500)
     public void hilotest(){
         Hilo.hilolargo();
+        System.out.println("Test Correcto");
     }
 
     @Test(expected = ArithmeticException.class)
